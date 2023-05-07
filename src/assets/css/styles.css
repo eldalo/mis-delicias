@@ -1,0 +1,128 @@
+* {
+  box-sizing: border-box;
+  outline: 0;
+  text-decoration: none;
+  text-rendering: optimizelegibility;
+}
+
+html {
+  font-size: 16px;
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  height: 100%;
+}
+
+.header {
+  border-bottom: 1px solid #d1a584;
+}
+
+.header .logo {
+  max-width: 90px;
+}
+
+.header .menu-item {
+  color: #d1a584;
+  font-size: 16px;
+  font-weight: 500;
+  transition: all 0.25s ease-in-out;
+}
+
+.header .menu-item:hover {
+  font-weight: 600;
+}
+
+.footer {
+  background-color: black;
+}
+
+.footer .footer-copy {
+  color: white;
+  font-size: 16px;
+}
+
+.footer .footer-copy a {
+  color: #d1a584;
+}
+
+.home {
+}
+
+.home .banner {
+  height: 50vh;
+  position: relative;
+}
+
+.home .banner h1 {
+  color: white;
+  font-size: 36px;
+  font-weight: bold;
+  position: relative;
+}
+
+.home .banner h1 strong {
+  font-size: 56px;
+  font-weight: 200;
+}
+
+.home .carrousel .carrousel-item {
+  display: block;
+  height: 350px;
+  position: relative;
+}
+
+.home .about h2 {
+  color: #d1a584;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.home .about h3 {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.home .about p {
+  font-size: 16px;
+}
+
+.home .about .about-preview {
+  height: 350px;
+  position: relative;
+}
+
+.ui-images-border {
+  border: 3px solid #d1a584;
+  border-radius: 15px;
+}
+
+.ui-image-full {
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+
+.ui-image-full img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.btn-cta {
+  background-color: #d1a584;
+  border-color: #d1a584;
+  color: white;
+  transition: all 0.25s ease-in-out;
+}
+
+.btn-cta:hover {
+  background-color: white;
+  border-color: #d1a584;
+  color: #d1a584;
+}
