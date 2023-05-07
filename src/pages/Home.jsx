@@ -1,15 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import ImgBanner from '../assets/images/banner.jpg';
-import ImgAbout from '../assets/images/productos/comida5.jpg';
-import ImgFirstProduct from '../assets/images/productos/comida1.jpeg';
-import ImgSecondProduct from '../assets/images/productos/comida4.jpg';
-import ImgThirdProduct from '../assets/images/productos/comida6.jpg';
+import ImgBanner from '../assets/images/banner-home.jpg';
+import ImgAbout from '../assets/images/banner-home-left.jpg';
+import CarrouselItem from '../components/Carrousel-Item';
+
+import MOCK_PRODUCTOS from '../mocks/productos.json';
 
 const Home = () => (
   <section className="home">
-    <section className="banner d-flex justify-content-center">
+    <section className="ui-banner d-flex justify-content-center">
       <figure className="mb-0 ui-image-full">
         <img
           src={ImgBanner}
@@ -25,41 +25,16 @@ const Home = () => (
     </section>
     <section className="container py-4">
       <section className="carrousel mb-4">
-        <h2></h2>
         <div className="row">
-          <div className="col-sm-12 col-md-4">
-            <Link to="/productos" className="carrousel-item">
-              <figure className="mb-0 ui-image-full">
-                <img
-                  src={ImgFirstProduct}
-                  className="d-block img-fluid m-auto ui-images-border"
-                  alt="Mis Delicias"
-                />
-              </figure>
-            </Link>
-          </div>
-          <div className="col-sm-12 col-md-4">
-            <Link to="/productos" className="carrousel-item">
-              <figure className="mb-0 ui-image-full">
-                <img
-                  src={ImgSecondProduct}
-                  className="d-block img-fluid m-auto ui-images-border"
-                  alt="Mis Delicias"
-                />
-              </figure>
-            </Link>
-          </div>
-          <div className="col-sm-12 col-md-4">
-            <Link to="/productos" className="carrousel-item">
-              <figure className="mb-0 ui-image-full">
-                <img
-                  src={ImgThirdProduct}
-                  className="d-block img-fluid m-auto ui-images-border"
-                  alt="Mis Delicias"
-                />
-              </figure>
-            </Link>
-          </div>
+          {MOCK_PRODUCTOS?.slice(0, 3)?.map((product) => (
+            <CarrouselItem
+              key={`carrousel-item-${product.id}`}
+              id={product.id}
+              image={product.image}
+              name={product.name}
+              link={product.link}
+            />
+          ))}
         </div>
       </section>
       <section className="about">

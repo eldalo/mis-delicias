@@ -8,7 +8,7 @@ const Header = () => {
     <header className="header py-3">
       <div className="container">
         <div className="row align-items-center">
-          <figure className="col-sm-12 col-md-2 mb-0">
+          <figure className="col-sm-12 col-md-2 mb-3 mb-md-0">
             <Link to="/" className="logo">
               <img
                 src={Logo}
