@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Camarones al curry hindu",
+    "description": "Inspírate con nuestros camarones al curry hindú. Un plato caliente para el alma, con Tajadas de roastbeef y queso, cebollas asadas, rúgula, mayonesa chipotle y el chucrut de cebollas armando la fantasía del sabor (ligeramente picante).",
+    "image": "/src/assets/images/productos/comida1.jpeg",
+    "price": 35,
+    "link": "/productos"
+  },
+  {
+    "id": 2,
+    "name": "Arroz Teriyaki",
+    "description": "Un plato para soñar, con nuestro arroz a la terriyaki y sus exquisitos sabores recordaras los platos de mama y no querras uno solo.",
+    "image": "/src/assets/images/productos/comida2.jpg",
+    "price": 28,
+    "link": "/productos"
+  },
+  {
+    "id": 3,
+    "name": "Ensalada Vegetariana",
+    "description": "Dale un toque fresco a tus comidas con nuestra Ensalada vegetariana para el alma. Mozzarella de búfala, huevos, variedad de lechugas orgánicas, tomates secos, fríos y frescos, champiñones, pesto, aguacate, aceitunas negras, vinagre balsámico y aceite de oliva.",
+    "image": "/src/assets/images/productos/comida3.jpeg",
+    "price": 25,
+    "link": "/productos"
+  },
+  {
+    "id": 4,
+    "name": "Nachos a la terriyaky",
+    "description": "Estos nachos te haran volar a otro planeta, con el toque secreto de la casa.",
+    "image": "/src/assets/images/productos/comida4.jpg",
+    "price": 18,
+    "link": "/productos"
+  },
+  {
+    "id": 5,
+    "name": "Brochetas de pollo hawaianas",
+    "description": "Un plato ideal para sentirte en Hawai y compartir en familia diferentes sabores que deleitaran tu paladar.",
+    "image": "/src/assets/images/productos/comida5.jpg",
+    "price": 40,
+    "link": "/productos"
+  },
+  {
+    "id": 6,
+    "name": "Sushi",
+    "description": "Si te gusta la comida oriental este es tu ideal elaborados a base de arroz.",
+    "image": "/src/assets/images/productos/comida6.jpg",
+    "price": 45,
+    "link": "/productos"
+  }
+]
