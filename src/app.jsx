@@ -6,6 +6,8 @@ import Footer from './components/Footer';
 import Home from './pages/Home';
 import Productos from './pages/Productos';
 import Carrito from './pages/Carrito';
+import AdminEmpleados from './pages/admin/Empleados';
+import AdminProductos from './pages/admin/Productos';
 
 const App = () => (
   <Router>
@@ -14,6 +16,8 @@ const App = () => (
       <Route path="/" element={<Home />} />
       <Route path="/productos" element={<Productos />} />
       <Route path="/carrito" element={<Carrito />} />
+      <Route path="/administrador/empleados" element={<AdminEmpleados />} />
+      <Route path="/administrador/productos" element={<AdminProductos />} />
     </Routes>
     <Footer />
   </Router>
