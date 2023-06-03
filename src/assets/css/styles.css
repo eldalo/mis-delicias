@@ -103,6 +103,61 @@ body {
   line-height: 19px;
 }
 
+.cart .ui-banner {
+  height: 30vh;
+}
+
+.cart .cart-title {
+  color: #d1a584;
+  font-size: 22px;
+  line-height: 23px;
+  font-weight: 600;
+}
+
+.cart .card {
+  border: 2px solid #d1a584;
+  background-color: black;
+}
+
+.cart .cart-total {
+  color: white;
+  font-size: 22px;
+  line-height: 23px;
+  font-weight: 600;
+}
+
+.cart .cart-total small {
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.cart .cart-products .cart-product {
+  color: black;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.cart .cart-products .cart-product small {
+  color: #d1a584;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 700;
+}
+
+.cart .cart-btn {
+  background-color: transparent;
+  border: none;
+  color: #d1a584;
+  text-decoration: underline;
+}
+
+.cart .cart-btn img {
+  object-fit: cover;
+  height: 3%;
+  width: 3%;
+}
+
 .ui-images-border {
   border: 3px solid #d1a584;
   border-radius: 15px;
